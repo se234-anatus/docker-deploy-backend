@@ -26,7 +26,7 @@ jobs:
       - name: Login to DockerHub
         uses: docker/login-action@v2
         with:
-          username: ${{secrets.DOCKER_HUB_USERNAME}}
+          username: ${{secrets.DOCKER_HUB_USERNME}}
           password: ${{secrets.DOCKER_HUB_TOKEN}}
       - name: prepare the docker compose run
         run: |
